@@ -5,7 +5,9 @@ import woman from "../../../public/frame1-en (1).jpg";
 
 export default function WCYAWK() {
   return (
-    <section className="mt-[200px] ml-30 max-md:ml-[10px] max-md:mr-[10px] mr-30 flex lg:justify-between lg:gap-[100px]  items-center max-lg:flex-col">
+    <section
+      id="arch"
+      className="mt-[200px] ml-30 max-md:ml-[10px] max-md:mr-[10px] mr-30 flex lg:justify-between lg:gap-[100px]  items-center max-lg:flex-col">
       <div className="lg:max-w-[586px]">
         <h2 className="text-[36px] max-md:text-[32px] font-bold">
           What Can You Achieve With Kegel Men?

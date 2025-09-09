@@ -22,7 +22,7 @@ export default function Header() {
           <nav className="flex gap-[30px]  pr-5 space">
             <a href="#kegelman">Overview</a>
             <a href="#whatisit">Benefits </a>
-            <a href="#">FAQ</a>
+            <a href="#arch">FAQ</a>
           </nav>
         ) : (
           <div className="cursor-pointer" onClick={() => setFlag(!flag)}>
