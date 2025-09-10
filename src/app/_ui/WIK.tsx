@@ -8,7 +8,7 @@ export default function WIK() {
       className="max-lg:pl-20 pl-30  pr-20 max-md:pr-0  max-md:pl-[10px] mt-[200px]  ">
       <div className="grid grid-cols-2 justify-between max-lg:grid-cols-1">
         <div className="flex order-2 flex-col max-lg:order-1  gap-10">
-          <h2 className="text-[36px] font-bold max-md:text-[32px]">
+          <h2 className="text-[36px] font-bold max-md:text-[28px]">
             What is Kegel Power?
           </h2>
           <p className="text-[22px] max-md:text-[18px]">

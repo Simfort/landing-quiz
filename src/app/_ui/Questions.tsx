@@ -7,17 +7,17 @@ export default function Questions() {
     <section className="flex gap-[60px] mt-[100px] items-center flex-col">
       <h2 className="text-[32px] font-bold">Frequently Asked Questions</h2>
       <div className="flex gap-10 max-md:flex-col">
-        <div className="gap-10 flex flex-col">
-          <div className="bg-white shadow-2xl max-lg:p-5 p-10 rounded-2xl text-black">
-            <div className="flex gap-5">
-              <p className="bg-[linear-gradient(to_right,#cc0000,#840002)] text-xl w-[22px] h-[22px] flex items-center justify-center  rounded-full text-white">
+        <div className="gap-10   flex flex-col">
+          <div className="bg-white  shadow-2xl max-lg:p-5  p-10 rounded-2xl text-black">
+            <div className="flex w-1/1 max-md:gap-2 gap-5 ">
+              <p className="bg-[linear-gradient(to_right,#cc0000,#840002)] text-xl w-[22px] max-md:w-[30px]  h-[22px] flex items-center justify-center   rounded-full text-white">
                 ?
               </p>
               <h5 className="font-bold text-[18px]">
                 What are the benefits of Kegel exercises?
               </h5>
             </div>
-            <ul className="pl-15 mt-[50px]">
+            <ul className=" p-10 mt-[20px]">
               {EXERCISES.map((val, i) => (
                 <li className="list-disc font-normal" key={i}>
                   {val}

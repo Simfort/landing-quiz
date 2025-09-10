@@ -11,7 +11,7 @@ export default function GYP() {
       className="mt-[60px] max-lg:pl-20 pr-20 max-md:pr-0  max-md:pl-[10px] pl-30">
       <div className=" gap-[50px] max-lg:flex-col justify-between max-md:items-start  flex  items-center">
         <div className="flex max-w-[500px] flex-col gap-[50px]">
-          <h1 className="font-bold text-[42px] max-md:text-[36px]">
+          <h1 className="font-bold text-[42px] max-md:text-[28px]">
             Your Personalized Kegel Program
           </h1>
           <p className="text-[18px]">

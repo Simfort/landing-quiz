@@ -4,7 +4,7 @@ import logo from "../../../public/Kegel Power v5.png";
 
 export default function Footer() {
   return (
-    <footer className="pl-30  pr-30 max-md:mt-[100px] max-md:flex-wrap justify-center max-md:p-0 max-md:pr-0 gap-[20px]  flex bg-[rgb(5,7,28)] max-lg:pl-12 max-md:pl-0 pt-7 text-xl ">
+    <footer className="pl-30 mt-[100px]  pr-30  max-md:flex-wrap justify-center max-md:p-0 max-md:pr-0 gap-[20px]  flex bg-[rgb(5,7,28)] max-lg:pl-12 max-md:pl-0 pt-7 text-xl ">
       <div className="flex gap-[50px] ">
         <Image
           className="w-[80px] max-md:hidden h-[80px] max-md:w-[70px]"
