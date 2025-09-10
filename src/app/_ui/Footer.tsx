@@ -14,7 +14,6 @@ export default function Footer() {
         <article className=" flex-wrap p-4 flex items-center gap-[40px] text-[16px]">
           <a href="https://kegelman.app/privacy-policy">Privacy Policy</a>
           <a href="https://kegelman.app/terms-of-use">Terms of Use</a>
-          <a href="https://kegelman.app/faq">FAQ</a>
           <a href="https://kegelman.app/refund-policy">Refund Policy</a>
         </article>
       </div>
