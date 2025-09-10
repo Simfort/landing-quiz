@@ -1,4 +1,3 @@
-import { CircleQuestionMark } from "lucide-react";
 import EXERCISES, { QUESTIONS } from "../_lib/data/exercises";
 import Quest from "./Quest";
 
