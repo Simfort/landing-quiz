@@ -1,12 +1,9 @@
-import Image from "next/image";
 import Header from "./_ui/Header";
 import GYP from "./_ui/GYP";
 import WIK from "./_ui/WIK";
 import M2USERS from "./_ui/M2USERS";
 import WCYAWK from "./_ui/WCYAWK";
 import Questions from "./_ui/Questions";
-import UserReviews from "./_ui/UserReviews";
-import Footer from "./_ui/Footer";
 
 export default function Home() {
   return (
@@ -18,7 +15,6 @@ export default function Home() {
         <M2USERS />
         <WCYAWK />
         <Questions />
-        <UserReviews />
       </main>
     </div>
   );
