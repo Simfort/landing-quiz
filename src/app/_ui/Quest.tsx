@@ -13,7 +13,7 @@ export default function Quest({
         </p>
         <h5 className="font-bold text-[18px]">{title}</h5>
       </div>
-      <p className=" mt-[36px] font-normal">{text}</p>
+      <p className=" mt-[36px] max-md:mt-[20px] font-normal">{text}</p>
     </div>
   );
 }

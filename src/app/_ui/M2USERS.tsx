@@ -1,11 +1,9 @@
 import Image from "next/image";
-import m2us from "../../../public/2m-user.8c27125d.png";
-import mens from "../../../public/mens.e5f26940.png";
+import mens from "../../../public/3mens.png";
 
 export default function M2USERS() {
   return (
     <section className="flex mt-[140px] flex-col items-center justify-center gap-10">
-      <Image src={m2us} alt="users 2m" className="w-[140px]" />
       <h2 className="max-lg:text-[2rem] text-[3rem] max-md:text-[1.5rem] font-bold text-center">
         #1 Kegel App for Men
       </h2>
