@@ -11,24 +11,24 @@ const EXERCISES = [
 ];
 export const QUESTIONS = [
   {
-    title: "How to find the right muscles?",
-    text: "Pretend that you are urinating,then try to stop the flow with a quick muscle contraction. Those muscles you just used are the right muscles. ",
+    title: "How do I locate the correct muscles?",
+    text: "Imagine you are urinating and try to stop the stream mid-flow. The muscles you engage are the ones to train.",
   },
   {
-    title: "How to prepare for the exercises?",
-    text: "Empty your bladder and you,re good to go.",
+    title: "How should I prepare for a session?",
+    text: "Simply empty your bladder before you begin.",
   },
   {
-    title: "What are the nuances",
-    text: "While doing the exercises,your glutes and abdominal muscles may automatically tense up.Try to control this.During the pelvic floor muscles tension, the other muscles should be relaxed: so you will avoid a muscle strain and spasms.",
+    title: "Anything to keep in mind?",
+    text: "When performing the exercises, your abs or glutes may contract automatically. Try to relax them and isolate only the pelvic floor muscles. This helps prevent strain and unnecessary spasms.",
   },
   {
-    title: "How tond does it take to train?",
-    text: "You will see the first results in a month and a half of regular training. Exercise twice a day or more for high efficiency.",
+    title: "How long before results show?",
+    text: "Most men notice improvements after about six weeks of consistent practice. For best results, aim to train at least twice a day.",
   },
   {
-    title: "How to perform the exercises?",
-    text: "These exercises can be performed unnoticeable.Take a comforamble position. Doesn`t matter sitting, lying or standing,just not while walkind. Remember to breathe. Otherwise, you will get tired faster,and the benefits of such exercises will decrease.",
+    title: "How are the exercises performed?",
+    text: "They can be done discreetly in almost any position — sitting, standing, or lying down (but not while walking). Keep breathing steadily; holding your breath makes the workout less effective and more tiring.",
   },
 ];
 

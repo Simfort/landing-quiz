@@ -4,6 +4,7 @@ import WIK from "./_ui/WIK";
 import M2USERS from "./_ui/M2USERS";
 import WCYAWK from "./_ui/WCYAWK";
 import Questions from "./_ui/Questions";
+import ATNA from "./_ui/ATNA";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <main>
         <GYP />
         <WIK />
+        <ATNA />
         <M2USERS />
         <WCYAWK />
         <Questions />
