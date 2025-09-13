@@ -16,7 +16,7 @@ export default function Questions() {
                 What are the benefits of Kegel exercises?
               </h5>
             </div>
-            <ul className=" p-10 mt-[20px] max-md:mt-[20px]">
+            <ul className=" pl-5  mt-[40px] max-md:mt-[20px]">
               {EXERCISES.map((val, i) => (
                 <li className="list-disc font-normal" key={i}>
                   {val}
