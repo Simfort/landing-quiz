@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import logo from "../../../public/Kegel Power v5.png";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -15,24 +16,24 @@ export default function Footer() {
           <h5 className="border-b-2 border-red-500  w-[120px] pb-2">
             Navigation
           </h5>
-          <a className="opacity-60" href="#kegelman">
+          <Link className="opacity-60" href="/#kegelman">
             Overview
-          </a>
-          <a className="opacity-60" href="#whatisit">
+          </Link>
+          <Link className="opacity-60" href="/#whatisit">
             Benefits{" "}
-          </a>
-          <a className="opacity-60" href="#arch">
+          </Link>
+          <Link className="opacity-60" href="/#arch">
             FAQ
-          </a>
+          </Link>
         </nav>
         <article className=" flex flex-col gap-[20px] text-[16px]">
           <h5 className="border-b-2 border-red-500  w-[120px] pb-2">Legal</h5>
-          <a className="opacity-60" href="https://kegelman.app/privacy-policy">
+          <Link className="opacity-60" href="/privacy-policy">
             Privacy Policy
-          </a>
-          <a className="opacity-60" href="https://kegelman.app/terms-of-use">
+          </Link>
+          <Link className="opacity-60" href="/termsandconditions">
             Terms of Use
-          </a>
+          </Link>
           <a className="opacity-60" href="https://kegelman.app/refund-policy">
             Refund Policy
           </a>
@@ -40,9 +41,11 @@ export default function Footer() {
         <article className=" flex flex-col gap-[20px] text-[16px]">
           <h5 className="border-b-2 border-red-500 pb-2 w-[120px]">Contact</h5>
           <a href="mailto:contact@kegelpower.pro" className="opacity-60">
-            contact@kegelpower.pro
+            support@kegelpower.pro
           </a>
         </article>
+        <p>Stoney Works, 8 Stoney Lane, London, England, SE19 3BD</p>
+        <p>© Viralyze LLP</p>
       </div>
     </footer>
   );

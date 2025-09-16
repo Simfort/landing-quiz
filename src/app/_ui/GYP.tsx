@@ -18,31 +18,16 @@ export default function GYP() {
             Strengthen your intimate health with Kegel Power — a custom
             AI-powered training plan designed together with experts.
           </p>
-          <button className="bg-[linear-gradient(to_right,#cc0000,#840002)] h-[49px] w-[171px] rounded-[27px] shadow-[rgba(206,15,15,0.24_0px_4px_10px)] hover:opacity-80 cursor-pointer transition-opacity duration-200 self-start text-[17px]">
+          <Link
+            href="https://quiz-b.kegelpower.pro/"
+            className="bg-[linear-gradient(to_right,#cc0000,#840002)] flex items-center justify-center h-[49px] w-[171px] rounded-[27px] shadow-[rgba(206,15,15,0.24_0px_4px_10px)] hover:opacity-80 cursor-pointer transition-opacity duration-200 self-start text-[17px]">
             GET STARTED
-          </button>
+          </Link>
           <div className="flex gap-[20px] items-center self-start">
-            <Link
-              target="_blank"
-              rel="noreferrer"
-              href={
-                "https://apps.apple.com/app/kegel-men-mens-health/id1629602915"
-              }>
+            <Link target="_blank" rel="noreferrer" href={"/"}>
               <Image
                 src={apple}
                 className="h-[42px] w-[123px]"
-                alt="apple store"
-              />
-            </Link>
-            <Link
-              target="_blank"
-              rel="noreferrer"
-              href={
-                "https://play.google.com/store/apps/details?id=com.digitallence.kegelmanapp"
-              }>
-              <Image
-                src={google}
-                className="h-[62px] w-[159px]"
                 alt="apple store"
               />
             </Link>

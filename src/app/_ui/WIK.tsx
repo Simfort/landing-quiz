@@ -19,9 +19,8 @@ export default function WIK() {
             tailored to lifestyle and physical condition.
           </p>
           <p className="text-[22px] max-md:text-[18px] max-w-[575px]">
-            The plan is designed to enhance men’s health and performance,
-            combining Kegel routines, fitness workouts, and breathing practices
-            — all with built-in progress tracking.
+            The plan is designed to enhance men’s health and performance by
+            combining Kegel routines with built-in progress tracking.
           </p>
           <div className="flex flex-wrap mt-[50px] w-1/1 max-md:justify-center gap-[50px]">
             <div className="flex flex-col items-center">
