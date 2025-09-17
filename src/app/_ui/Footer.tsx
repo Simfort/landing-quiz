@@ -28,15 +28,16 @@ export default function Footer() {
         </nav>
         <article className=" flex flex-col gap-[20px] text-[16px]">
           <h5 className="border-b-2 border-red-500  w-[120px] pb-2">Legal</h5>
-          <Link className="opacity-60" href="/privacy-policy">
+          <Link
+            className="opacity-60"
+            href="https://www.termsfeed.com/live/c61a8a44-f66d-4669-ad9f-faee10d11010">
             Privacy Policy
           </Link>
-          <Link className="opacity-60" href="/termsandconditions">
-            Terms of Use
+          <Link
+            className="opacity-60"
+            href="https://www.termsfeed.com/live/2b2a27ed-1a1c-4ada-b6b8-d5a6cdc246f3">
+            Terms and Conditions
           </Link>
-          <a className="opacity-60" href="https://kegelman.app/refund-policy">
-            Refund Policy
-          </a>
         </article>
         <article className=" flex flex-col gap-[20px] text-[16px]">
           <h5 className="border-b-2 border-red-500 pb-2 w-[120px]">Contact</h5>
