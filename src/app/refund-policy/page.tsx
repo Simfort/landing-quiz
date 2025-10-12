@@ -169,7 +169,7 @@ export default function Page() {
           nature as digital content with perpetual availability, they are
           categorized as non-refundable goods. Therefore, we do not offer
           refunds for these features once they have been purchased. Please note
-          that these features are not included in any of the Kegel Men Premium
+          that these features are not included in any of the Kegel Power Premium
           subscriptions and are billed separately.
         </p>
         <p>
