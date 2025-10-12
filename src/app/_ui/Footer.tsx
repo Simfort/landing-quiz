@@ -38,6 +38,9 @@ export default function Footer() {
             href="https://www.termsfeed.com/live/2b2a27ed-1a1c-4ada-b6b8-d5a6cdc246f3">
             Terms and Conditions
           </Link>
+          <Link className="opacity-60" href={"/refund-policy"}>
+            Refund Policy
+          </Link>
         </article>
         <article className=" flex flex-col gap-[20px] text-[16px]">
           <h5 className="border-b-2 border-red-500 pb-2 w-[120px]">Contact</h5>
